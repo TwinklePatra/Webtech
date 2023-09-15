@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .twinkle{
+            display: inline-block;
+            border-width:3px;
+            border-style: solid;
+            border-color: aqua;
+            height: 100px;
+            width: 150px;
+            margin: 50px;
+            
+
+        }
+        .twin{
+            background-color: rgb(255, 196, 242);
+            height: 1000px;
+        }
+        #box2{
+       position: relative;
+       top: 100px;
+       right: 50px;
+       background-color: black;
+        }
+        #box1{
+            background-color: deeppink;
+        }
+        #box3{
+            position: relative;
+           top: 200px;
+           right: 100px; 
+        }
+        #box4{
+            position: relative;
+            top: 300px;
+            right: 150px;
+            background-color: gold;
+        }
+        #box5{
+            position: fixed;
+            right: 300px;
+        }
+        #box6{
+            position: sticky;
+            top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="twin">
+    <div class="twinkle" id="box1">1</div>
+    <div class="twinkle" id="box2">2</div>
+    <div class="twinkle" id="box3">3</div>
+    <div class="twinkle" id="box4">4</div>
+    <div class="twinkle" id="box5">5</div>
+    <div class="twinkle" id="box6">6</div>
+    </div>
+</body>
+</html>
